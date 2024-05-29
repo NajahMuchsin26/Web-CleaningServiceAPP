@@ -1,0 +1,620 @@
+/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.header-cleanhome .modal-item.modal {
+  top: 32px;
+}
+
+.header-cleanhome .navbar,
+.header-cleanhome .hero {
+  padding: 48px 32px;
+}
+
+.header-cleanhome .navbar-light .navbar-nav .nav-link {
+  font: 300 18px/24px Poppins, sans-serif;
+  color: #1d1e3c;
+  transition: 0.3s;
+}
+
+.header-cleanhome .navbar-light .navbar-nav .nav-link:hover {
+  font: 600 18px/24px Poppins, sans-serif;
+  color: #1d1e3c;
+  transition: 0.3s;
+}
+
+.header-cleanhome .navbar-light .navbar-nav .active > .nav-link,
+.header-cleanhome .navbar-light .navbar-nav .nav-link.active,
+.header-cleanhome .navbar-light .navbar-nav .nav-link.show,
+.header-cleanhome .navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header-cleanhome .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.header-cleanhome .btn:focus,
+.header-cleanhome .btn:active {
+  outline: none !important;
+}
+
+.header-cleanhome .btn-fill {
+  font: 600 18px / normal Poppins, sans-serif;
+  background-color: #27c499;
+  border-radius: 12px;
+  padding: 12px 32px;
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-fill:hover {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-no-fill {
+  font: 300 18px/28px Poppins, sans-serif;
+  color: #1d1e3c;
+  padding: 12px 32px;
+  transition: 0.3s;
+}
+
+.header-cleanhome .modal-item .modal-dialog .modal-content {
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.header-cleanhome .responsive li a {
+  padding: 16px;
+  transition: 0.3s;
+}
+
+.header-cleanhome .text-caption {
+  font: 600 14px/26px Poppins, sans-serif;
+  margin-bottom: 48px;
+  color: #27c499;
+}
+
+.header-cleanhome .left-column {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+.header-cleanhome .right-column {
+  width: 100%;
+}
+
+.header-cleanhome .title-text-big {
+  font: 600 36px/40px Poppins, sans-serif;
+  margin-bottom: 32px;
+  color: #272e35;
+}
+
+.header-cleanhome .btn-try {
+  font: 600 16px/1.5rem Poppins, sans-serif;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #27c499;
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-try:hover {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-outline {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  border: 1px solid #555b61;
+  color: #555b61;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-outline:hover {
+  border: 1px solid #27c499;
+  color: #27c499;
+  transition: 0.3s;
+}
+
+.header-cleanhome .btn-outline:hover div path {
+  fill: #27c499;
+  transition: 0.3s;
+}
+
+@media (min-width: 576px) {
+  .header-cleanhome .modal-item .modal-dialog {
+    max-width: 95%;
+    border-radius: 12px;
+  }
+
+  .header-cleanhome .navbar {
+    padding: 3rem 2rem;
+  }
+
+  .header-cleanhome .hero {
+    padding: 3rem 2rem 5rem;
+  }
+
+  .header-cleanhome .title-text-big {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-cleanhome .navbar {
+    padding: 3rem 4rem;
+  }
+
+  .header-cleanhome .hero {
+    padding: 3rem 4rem 5rem;
+  }
+
+  .header-cleanhome .left-column {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-cleanhome .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .header-cleanhome .navbar {
+    padding: 3rem 6rem;
+  }
+
+  .header-cleanhome .hero {
+    padding: 3rem 6rem 5rem;
+  }
+
+  .header-cleanhome .left-column {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .header-cleanhome .right-column {
+    width: 50%;
+  }
+
+  .header-cleanhome .title-text-big {
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
+}
+/* HEADER */
+
+/* CONTENT */
+.content-cleanhome .btn:focus,
+.content-cleanhome .btn:active {
+  outline: none !important;
+}
+
+.content-cleanhome .title-text {
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.content-cleanhome .text-title {
+  font: 600 2.25rem/2.5rem Poppins, sans-serif;
+  color: #121212;
+  margin-bottom: 0.625rem;
+}
+
+.content-cleanhome .text-caption {
+  color: #121212;
+  font-weight: 300;
+}
+
+.content-cleanhome .column {
+  padding: 2rem 2.25rem;
+}
+
+.content-cleanhome .icon {
+  margin-bottom: 1.5rem;
+}
+
+.content-cleanhome .icon-title {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 0.625rem;
+  color: #121212;
+}
+
+.content-cleanhome .icon-caption {
+  font: 400 1rem/1.625 Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #565656;
+}
+
+.content-cleanhome .card-block {
+  padding: 1rem 1rem 5rem;
+}
+
+.content-cleanhome .card {
+  padding: 1.75rem;
+  background-color: #eef6f4;
+  border-radius: 0.75rem;
+  border: 1px solid #27c499;
+}
+
+.content-cleanhome .card-title {
+  font: 600 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 0.625rem;
+  color: #000000;
+}
+
+.content-cleanhome .card-caption {
+  font: 300 1rem/1.5rem Poppins, sans-serif;
+  color: #565656;
+  letter-spacing: 0.025em;
+  margin-bottom: 0;
+}
+
+.content-cleanhome .btn-card {
+  font: 700 1rem/1.5rem Poppins, sans-serif;
+  background-color: #27c499;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.content-cleanhome .btn-card:hover {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.content-cleanhome .btn-outline {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  color: #979797;
+  border: 1px solid #979797;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.content-cleanhome .btn-outline:hover {
+  border: 1px solid #27c499;
+  color: #27c499;
+}
+
+.content-cleanhome .card-text {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.content-cleanhome .grid-padding {
+  padding: 0rem 1rem 3rem;
+}
+
+.content-cleanhome .right-column {
+  width: 40%;
+}
+
+@media (min-width: 576px) {
+  .content-cleanhome .grid-padding {
+    padding: 0rem 2rem 3rem;
+  }
+
+  .content-cleanhome .card-block {
+    padding: 3rem 2rem 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-cleanhome .grid-padding {
+    padding: 0rem 4rem 3rem;
+  }
+
+  .content-cleanhome .card-block {
+    padding: 3rem 4rem 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-cleanhome .grid-padding {
+    padding: 1rem 6rem 3rem;
+  }
+
+  .content-cleanhome .card-block {
+    padding: 3rem 6rem 5rem;
+  }
+
+  .content-cleanhome .column {
+    padding: 0rem 2.25rem;
+  }
+
+  .content-cleanhome .img-hero {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .content-cleanhome .right-column {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-cleanhome .grid-padding {
+    padding: 1rem 10rem 3rem;
+  }
+
+  .content-cleanhome .card-block {
+    padding: 3rem 6rem 5rem;
+  }
+
+  .content-cleanhome .card-btn-space {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .content-cleanhome .btn-card,
+  .content-cleanhome .btn-outline {
+    width: 100%;
+    float: right;
+  }
+}
+
+@media (max-width: 980px) {
+  .content-cleanhome .card-btn-space {
+    width: 100%;
+  }
+}
+/* CONTENT */
+
+/* CONTENT-PRICE */
+.content-price .btn:focus,
+.content-price .btn:active {
+  outline: none !important;
+}
+
+.content-price {
+  padding: 5rem 2rem 7rem;
+}
+
+.content-price .title-text {
+  font: 800 1.875rem/2.25rem Poppins, sans-serif;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  color: #2e3a53;
+}
+
+.content-price .caption-text {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #8e8fad;
+  margin-bottom: 0;
+}
+
+.content-price .card-item {
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+  padding: 1rem 0;
+}
+
+.content-price .card-item:hover {
+  top: -3px;
+  left: -3px;
+  transition: 0.4s;
+}
+
+.content-price .card-item-outline {
+  border: 1px solid #e5ebf9;
+  padding: 2rem 2.75rem;
+  border-radius: 1rem;
+}
+
+.content-price .price-title {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  color: #141c2e;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.75rem;
+}
+
+.content-price .price-value {
+  font: 500 2.25rem/2.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.75rem;
+  color: #2e3a53;
+}
+
+.content-price .price-duration {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  margin: 0.625rem;
+  color: #9e9e9e;
+}
+
+.content-price .price-caption {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  margin-bottom: 2.5rem;
+  color: #c3c3c8;
+}
+
+.content-price .price-list .check {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  color: #2e3a53;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.75rem;
+}
+
+.content-price .price-list .no-check {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  color: #e1e1e1;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.75rem;
+}
+
+.content-price .span-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.75rem;
+}
+
+.content-price .btn-outline {
+  border: 1px solid #2ec49c;
+  color: #2ec49c;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  border-radius: 0.5rem;
+}
+
+.content-price .btn-outline:hover {
+  background-color: #2ec49c;
+  color: #ffffff;
+}
+
+.content-price .btn-fill {
+  background-image: linear-gradient(
+    rgba(91, 203, 173, 1),
+    rgba(39, 194, 153, 1)
+  );
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  border-radius: 0.5rem;
+}
+
+.content-price .btn-fill:hover {
+  background-image: linear-gradient(#29b18d, #29b18d);
+}
+
+@media (min-width: 576px) {
+  .content-price .title-text {
+    font: 800 2.25rem/2.5rem Poppins, sans-serif;
+  }
+
+  .content-price .card-item {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-price {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-price .caption-text {
+    width: 66.666667%;
+  }
+
+  .content-price .card-item {
+    width: 33.333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-price {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+/* CONTENT-PRICE */
+
+/* FOOTER */
+.footer-cleanhome .list-space {
+  margin-bottom: 20px;
+}
+
+.footer-cleanhome .footer-text-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.footer-cleanhome .list-menu {
+  color: #c7c7c7;
+  text-decoration: none !important;
+}
+
+.footer-cleanhome .list-menu:hover {
+  color: #555252;
+}
+
+.footer-cleanhome hr.hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-cleanhome .border-color {
+  color: #c7c7c7;
+}
+
+.footer-cleanhome .footer-link {
+  color: #c7c7c7;
+}
+
+.footer-cleanhome .footer-link:hover {
+  color: #555252;
+}
+
+.footer-cleanhome .social-media-c:hover circle,
+.footer-cleanhome .social-media-p:hover path {
+  fill: #555252;
+}
+
+.footer-cleanhome .footer-info-space {
+  padding-top: 48px;
+}
+
+.footer-cleanhome .list-footer {
+  padding: 80px 16px 48px 16px;
+}
+
+.footer-cleanhome .info-footer {
+  padding: 0 16px 48px;
+}
+
+@media (min-width: 576px) {
+  .footer-cleanhome .list-footer {
+    padding: 80px 32px 48px 32px;
+  }
+
+  .footer-cleanhome .info-footer {
+    padding: 0 32px 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-cleanhome .list-footer {
+    padding: 80px 64px 96px 64px;
+  }
+
+  .footer-cleanhome .info-footer {
+    padding: 0 64px 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-cleanhome .list-footer {
+    padding: 80px 96px 96px 96px;
+  }
+
+  .footer-cleanhome .info-footer {
+    padding: 0 96px 48px;
+  }
+}
+/* FOOTER */
